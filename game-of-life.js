@@ -4,7 +4,7 @@
  * 
  * @param {*} input 
  */
-function gameOfLife(input) {
+function gameOfLife() {
 
 
 
