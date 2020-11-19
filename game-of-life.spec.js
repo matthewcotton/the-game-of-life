@@ -1,7 +1,5 @@
 import { gameOfLife } from "./game-of-life"
 
-import { gameOfLife } from "./game-of-life"
-
 describe("Game Of Life", function(){
     var world;
   
