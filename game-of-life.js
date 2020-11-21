@@ -5,9 +5,7 @@
  * @param {*} input 
  */
 function gameOfLife() {
-
-
-
-}
+    return false;
+   }
 
 export { gameOfLife };
