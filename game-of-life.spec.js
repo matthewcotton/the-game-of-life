@@ -5,4 +5,10 @@ it("live cell has 1 live neighbours, dies", () => {
   const result = gameOfLife("1");
   expect(result).toBe(false);
 })
+
+
+it("live cell with fewer than 2 live neighbours, dies", () => {
+  const result = verifyPass("2")
+  expect(result).toBe(true);
+})
 });
