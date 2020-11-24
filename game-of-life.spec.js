@@ -8,7 +8,7 @@ it("live cell has 1 live neighbours, dies", () => {
 
 
 it("live cell with fewer than 2 live neighbours, dies", () => {
-  const result = verifyPass("2")
+  const result = gameOfLife("2")
   expect(result).toBe(true);
 })
 });
