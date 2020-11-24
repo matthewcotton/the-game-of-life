@@ -7,6 +7,10 @@
 function gameOfLife(aliveNeighbours) {
 
     // When number of alive neighbours is 2 or higher
+    if (aliveNeighbours >= "4") {
+        return false
+    }
+
     if (aliveNeighbours >= "2") {
         return true
     }

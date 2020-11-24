@@ -15,4 +15,9 @@ it("live cell has more than 3 live neighbours, dies", () => {
   const result = gameOfLife("4");
   expect(result).toBe(false);
 })
+
+it("live cell has 2 or 3 live neighbours, lives", () => {
+  const result = gameOfLife("3");
+  expect(result).toBe(true);
+})
 });
