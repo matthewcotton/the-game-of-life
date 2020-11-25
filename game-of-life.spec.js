@@ -23,6 +23,6 @@ it("live cell has 3 live neighbours, lives", () => {
 
 it("dead cell with less than 3 neighbours, stays dead", () => {
   const result = gameOfLife("2", "dead");
-  expect(result).toBe(false);
+  expect(result).toBe(true);
 })
 });
